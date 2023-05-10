@@ -19,3 +19,7 @@ Simple example from a starter function is:
     }
 }
 ```
+
+For Reproduction purpose. Simply go to Azure Portal -> Function App -> Advanced Tools -> Go ->
+On the SCM site top menu -> Debug Console -> CMD -> site -> wwwroot -> press the edit (pencil icon) on the host.json file and delete the content and save. 
+Close Kudu site and refresh portal to see Azure Runtime is Unreachable.
