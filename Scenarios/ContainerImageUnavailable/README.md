@@ -38,7 +38,7 @@ docker push <acrLoginServerAddress>/azurefunctionsimage:v1.0.0
 With the Image pushed to the ACR, we will now configure the CICD.
 Azure Portal -> Function App -> Deployment Center and update change the fields and click save.
 
-![image](https://github.com/VinnyBonner/AzureFunctionsRuntimeIsUnreachable/assets/92878154/1c3a39ed-83fe-4a02-a33a-b219bcb4304a)
+![image](https://github.com/VinnyBonner/AzureFunctionsRuntimeIsUnreachable/assets/92878154/8bdc86a1-a357-447d-8ea0-e1c8572ae59c)
 
 Now you will notice after a minute that when you go to Functions, you will see the Http Trigger, and under the Deployment Center -> Logs, you can view the Docker logs. 
 
