@@ -9,7 +9,7 @@ Run the below commands - NOTE: You will need to replace the content between < > 
 
 Creates the Python Virtual Env and activates it
 ```
-py -3.9 -m venv .venv
+py -m venv .venv
 .venv\scripts\activate
 ```
 
